@@ -323,14 +323,14 @@ class Ephemeris
     @alt_s, @az_s = self.alt_az(ra_s, dec_s, @sidtime)
 
     @sun     = [ra_s, dec_s, 1.0, self.hms_dms(ra_s, dec_s)].flatten 
-    @moon    = self.body_calc("moon").flatten
-    @mercury = self.body_calc("mercury").flatten
-    @venus   = self.body_calc("venus").flatten
-    @mars    = self.body_calc("mars").flatten
-    @jupiter = self.body_calc("jupiter").flatten
-    @saturn  = self.body_calc("saturn").flatten
-    @uranus  = self.body_calc("uranus").flatten
-    @neptune = self.body_calc("neptune").flatten
+    @moon    = self.body_calc("moon")
+    @mercury = self.body_calc("mercury")
+    @venus   = self.body_calc("venus")
+    @mars    = self.body_calc("mars")
+    @jupiter = self.body_calc("jupiter")
+    @saturn  = self.body_calc("saturn")
+    @uranus  = self.body_calc("uranus")
+    @neptune = self.body_calc("neptune")
 
   end
 end
