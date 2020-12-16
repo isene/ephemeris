@@ -21,7 +21,7 @@ by supplying the observer's latitude (lat), longitude (lon) and time zone (tz).
 
 Example: `today = Ephemeris.new("2020-12-16", 59.568, 10.02, 1)`
 
-You will have access to the following data:
+You will then have access to the following data:
 
 ```
 today.sun
