@@ -11,6 +11,14 @@ Meeus' "[Astronomical Formulae for
 Calculators](https://www.amazon.com/Astronomical-Formulae-Calculators-Jean-Meeus/dp/0943396220/ref=sr_1_7?dchild=1&keywords=jean+meeus&qid=1608136572&sr=8-7)" as reference. The basic data from the in-depth description has been tweaked
 somewhat to better fit our era.
 
+## Version 1.2.0 - Improved Accuracy
+
+This version includes significant accuracy improvements:
+- Updated obliquity of ecliptic to IAU 2006 standard (23.439279444°) with proper time-dependent formula
+- Implemented higher-precision planetary mean motion values for all planets
+- Enhanced calculations now use research-validated constants from JPL ephemeris data
+- Better long-term accuracy especially for dates far from J2000.0 epoch
+
 Usage is simple and straightforward:
 
 ```
