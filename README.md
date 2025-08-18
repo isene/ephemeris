@@ -1,5 +1,11 @@
 # Ephemeris
 
+[![Gem Version](https://badge.fury.io/rb/ruby-ephemeris.svg)](https://badge.fury.io/rb/ruby-ephemeris)
+[![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat&logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
+[![License](https://img.shields.io/badge/License-Public%20Domain-brightgreen.svg)](https://unlicense.org/)
+[![GitHub stars](https://img.shields.io/github/stars/isene/ephemeris.svg)](https://github.com/isene/ephemeris/stargazers)
+[![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
+
 Ruby Class::Ephemeris
 
 This is a complete ephemeris class for Ruby. The code can easily be used in
