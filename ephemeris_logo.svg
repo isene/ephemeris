@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#000814"/>
+  
+  <!-- Solar system with orbiting planets -->
+  <g transform="translate(100, 100)">
+    <!-- Sun -->
+    <circle cx="0" cy="0" r="12" fill="#ffd60a">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Orbits -->
+    <g stroke="#003566" stroke-width="1" fill="none" opacity="0.5">
+      <circle cx="0" cy="0" r="30"/>
+      <circle cx="0" cy="0" r="45"/>
+      <circle cx="0" cy="0" r="60"/>
+    </g>
+    
+    <!-- Inner planet -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="0;360"
+        dur="4s"
+        repeatCount="indefinite"/>
+      <circle cx="30" cy="0" r="3" fill="#4cc9f0"/>
+    </g>
+    
+    <!-- Middle planet -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="0;-360"
+        dur="6s"
+        repeatCount="indefinite"/>
+      <circle cx="45" cy="0" r="4" fill="#7209b7"/>
+    </g>
+    
+    <!-- Outer planet with ring -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        values="0;360"
+        dur="8s"
+        repeatCount="indefinite"/>
+      <circle cx="60" cy="0" r="5" fill="#f72585"/>
+      <ellipse cx="60" cy="0" rx="8" ry="2" fill="none" stroke="#f72585" stroke-width="1" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Stars -->
+  <g fill="#fff" opacity="0.8">
+    <circle cx="30" cy="30" r="1">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="170" cy="40" r="1">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="160" r="1">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="170" r="1">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Ruby gem -->
+  <g transform="translate(170, 30) scale(0.25)">
+    <path d="M -20 -10 L 20 -10 L 30 0 L 20 10 L -20 10 L -30 0 Z" fill="#CC342D" opacity="0.6"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="180" font-family="monospace" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">EPHEMERIS</text>
+  <text x="100" y="192" font-family="monospace" font-size="9" fill="#666" text-anchor="middle">Ruby Astronomy</text>
+</svg>

@@ -6,6 +6,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/isene/ephemeris.svg)](https://github.com/isene/ephemeris/stargazers)
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
+<img src="ephemeris_logo.svg" width="150" height="150">
+
 Ruby Class::Ephemeris
 
 This is a complete ephemeris class for Ruby. The code can easily be used in
