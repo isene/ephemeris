@@ -22,7 +22,7 @@
       <animateTransform
         attributeName="transform"
         type="rotate"
-        values="0;360"
+        values="0;-360"
         dur="4s"
         repeatCount="indefinite"/>
       <circle cx="30" cy="0" r="3" fill="#4cc9f0"/>
@@ -44,7 +44,7 @@
       <animateTransform
         attributeName="transform"
         type="rotate"
-        values="0;360"
+        values="0;-360"
         dur="8s"
         repeatCount="indefinite"/>
       <circle cx="60" cy="0" r="5" fill="#f72585"/>
